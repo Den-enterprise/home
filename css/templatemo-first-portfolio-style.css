@@ -11,10 +11,11 @@ https://templatemo.com/tm-578-first-portfolio
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #535da1;
-  --secondary-color:              #14B789;
-  --section-bg-color:             #f9f9f9;
+  --white-color:                  #FFFFFF;
+  --primary-color:                #6C0345;
+  --secondary-color:              #DC6B19;
+  --secondary-colour:             #808080;
+  --section-bg-color:             #FFFFFF;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
@@ -522,8 +523,8 @@ strong {
   position: absolute;
   z-index: 22;
   top: 0;
-  width: 100%;
-  min-width: 550px;
+  width: 70%;
+
 }
 
 .hero svg {
@@ -554,12 +555,11 @@ strong {
 }
 
 .profile-small-title {
-  border-right: 1px solid var(--border-color);
+  
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
   min-width: 140px;
-  margin-right: 10px;
-  padding: 13px 30px;
+
   display: inline-block;
 }
 
@@ -730,7 +730,7 @@ strong {
 }
 
 .projects-thumb:hover {
-  border-color: var(--secondary-color);
+  border-color: var(--secondary-colour);
 }
 
 .projects-thumb:hover .projects-image,
