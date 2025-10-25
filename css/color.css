@@ -122,7 +122,7 @@ button,
 .week-count h1,
 .case-quote a,
 .sub-2:after {
-    color: #2190c4;
+    color: #09bc8a;
 }
 
 
@@ -264,7 +264,7 @@ button,
 .portfolio-overlay:before,
 .line-right:after,
 .experience li:after {
-    background: #2190c4;
+    background: #09bc8a;
 }
 
 
@@ -405,21 +405,21 @@ button,
 .icon-box-icon,
 .partner:hover .partner-logo,
 .thank-icon {
-    border-color: #2190c4;
+    border-color: #09bc8a;
 }
 
 
 /*border left color*/
 
 .client-count:after {
-    border-left-color: #2190c4
+    border-left-color: #09bc8a
 }
 
 
 /*border topcolor*/
 
 .partner:hover .partner-logo:after {
-    border-top-color: #2190c4
+    border-top-color: #09bc8a
 }
 
 

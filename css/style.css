@@ -75,13 +75,13 @@
 .......................................*/
 
 body {
-    
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 2.4px
+    letter-spacing: .4px
 }
 
 body,
@@ -188,7 +188,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'helsinki', serif;
+    font-family: 'Merriweather', serif;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 26px;
