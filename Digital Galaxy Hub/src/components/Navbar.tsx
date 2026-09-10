@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Rocket } from "lucide-react";
-import logo from "@/assets/logo.png.asset.json";
+// import logo from "@/assets/logo.png.asset.json";
 
+const logo = "/home/logo.png";
 const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
@@ -25,17 +26,16 @@ export function Navbar() {
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        scrolled ? "glass shadow-[0_10px_40px_-20px_oklch(0.62_0.24_255/0.6)]" : "border-b border-transparent"
+        scrolled
+          ? "glass shadow-[0_10px_40px_-20px_oklch(0.62_0.24_255/0.6)]"
+          : "border-b border-transparent"
       }`}
     >
       <nav
         aria-label="Main"
         className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-4 lg:px-8"
       >
-        <a
-          href="#home"
-          className="flex min-w-0 items-center gap-2.5"
-        >
+        <a href="#home" className="flex min-w-0 items-center gap-2.5">
           <img
             src={logo.url}
             alt="Den_enterprise logo"
